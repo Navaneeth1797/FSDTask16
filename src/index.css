@@ -1,0 +1,287 @@
+/* Styles for the main container */
+.container {
+  max-width: 800px;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/* Styles for the title within the main container */
+#title {
+  text-align: center;
+  margin-top: 4%;
+}
+
+/* Styles for form rows within the main container */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Styles for the form content within the main container */
+#formcontent {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+/* Styles for form controls within the main container */
+.form-control {
+  margin-bottom: 10px;
+}
+
+/* Styles for title2 and filter elements within the main container */
+#title2 {
+  margin-top: 4%;
+}
+
+#filter {
+  margin-top: 3%;
+
+  margin-left: 61%;
+}
+
+/* Styles for the select dropdown in the main container */
+#select {
+  width: 138px;
+  padding: 6px 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: #ff8180;
+}
+
+#select:hover,
+#select:focus {
+  border-color: tomato !important;
+  box-shadow: 0 0 5px darkred;
+}
+
+#select option.centered {
+  padding: 0 10px;
+}
+
+/* Styles for card elements */
+.card-title {
+  text-align: center;
+  margin-top: 2%;
+  font-size: x-large;
+}
+
+.card-name {
+  margin-top: 7%;
+  font-size: larger;
+}
+
+.card-description {
+  margin-top: 7%;
+  font-size: larger;
+}
+
+.status-group {
+  margin-top: 7%;
+  font-size: larger;
+}
+
+#select2:hover,
+#select2:focus {
+  border-color: #708090 !important;
+  box-shadow: 0 0 5px #696969;
+}
+
+#card {
+  flex: 1;
+  border: 1px solid #13ad89;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: #ccf5d3;
+}
+
+#card:hover,
+#card:focus {
+  border-color: linear-gradient(to right, #13ad89, #14ad89, #ccf5d3) !important;
+  box-shadow: 0 0 3px limegreen;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 2063px) {
+  #card {
+    flex: none;
+  }
+  #formcontent2 {
+    width: 70rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #card {
+    flex: none;
+  }
+  #formcontent2 {
+    width: 50rem !important;
+    border-radius: 10px !important;
+  }
+  #name2 {
+    margin-left: 10rem !important;
+  }
+  #description2 {
+    margin-left: 10rem !important;
+  }
+  #editcard {
+    margin-left: 20rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #title2 {
+    display: block;
+    text-align: left;
+    margin-top: 2%;
+  }
+
+  #filter {
+    margin-left: 89%;
+  }
+
+  #select {
+    margin-left: 4px;
+  }
+  #card {
+    flex: none;
+  }
+  #formcontent2 {
+    width: 40rem !important;
+    border-radius: 7px !important;
+  }
+
+  #name2 {
+    margin-left: 7rem !important;
+  }
+
+  #description2 {
+    margin-left: 7rem !important;
+  }
+
+  #editcard {
+    margin-left: 11rem !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  #title2 {
+    display: block;
+    text-align: left;
+    margin-top: 2%;
+  }
+
+  #filter {
+    margin-left: 40%;
+  }
+
+  #select {
+    margin-left: 4px;
+  }
+  #formcontent2 {
+    width: 40rem !important;
+    border-radius: 39px !important;
+  }
+
+  #name2 {
+    margin-left: 7rem !important;
+  }
+
+  #description2 {
+    margin-left: 7rem !important;
+  }
+
+  #editcard {
+    margin-left: 11rem !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #button {
+    display: flex;
+    justify-content: center;
+  }
+  #title2 {
+    display: block;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+  }
+
+  #filter {
+    margin-left: 30%;
+  }
+
+  #select {
+    margin-left: 1%;
+  }
+  #formcontent2 {
+    width: 30rem !important;
+    border-radius: 25px !important;
+  }
+
+  #name2 {
+    margin-left: 5rem !important;
+    width: 60% !important;
+  }
+
+  #description2 {
+    margin-left: 5rem !important;
+    width: 60% !important;
+  }
+
+  #editcard {
+    margin-left: 10rem !important;
+  }
+}
+
+/* Media query for small devices */
+@media (max-width: 576px) {
+  #title2 {
+    text-align: center;
+    display: block;
+    margin-top: 3%;
+    margin-right: 5% !important;
+    font-size: 20px;
+  }
+
+  #filter {
+    margin-left: 11%;
+    margin-top: 1%;
+    font-size: 20px;
+    margin-bottom: 5%;
+  }
+
+  #select {
+    margin-left: 2px;
+    margin-top: 15%;
+    width: 112px;
+    font-size: 10px;
+  }
+  #button {
+    display: flex;
+    justify-content: center;
+  }
+  #formcontent2 {
+    width: 25rem !important;
+    border-radius: 20px !important;
+  }
+
+  #name2 {
+    margin-left: 5rem !important;
+    width: 60% !important;
+  }
+
+  #description2 {
+    margin-left: 3rem !important;
+    width: 80% !important;
+  }
+
+  #editcard {
+    margin-left: 8rem !important;
+  }
+};
