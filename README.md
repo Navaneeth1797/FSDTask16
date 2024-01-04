@@ -44,8 +44,9 @@ Filter todos by status
 App Component (App.jsx):
 Holds the main state (todouser) and renders the Dashboard component within a BrowserRouter.
 Uses Routes and Route components for handling different views, including the Dashboard and Edit components.
-Dashboard Component (Dashbord.jsx):
+Dashboard Component 
 
+(Dashbord.jsx):
 Manages the state for the to-do list (todouser).
 Provides a form for adding new tasks, a status filter, and renders the Cards component for displaying tasks.
 Uses the filterselection function to filter tasks based on their status.
