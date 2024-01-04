@@ -30,11 +30,14 @@ npm install
 Run the application:
 npm start
 
-Open your browser and navigate to "http://localhost:5173/"
+Open your browser and navigate to ""https://dulcet-frangollo-fa5162.netlify.app/dashboard""
 
 
 Features
-Add, edit, delete todos
+
+Add, 
+edit, 
+delete todos
 Filter todos by status
 
 
